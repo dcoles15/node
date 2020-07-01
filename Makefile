@@ -804,7 +804,7 @@ ifeq ($(DESTCPU),ia32)
 override DESTCPU=x86
 endif
 
-TARNAME=node-$(FULLVERSION)
+TARNAME=node-$(FULLVERSION).A
 TARBALL=$(TARNAME).tar
 # Custom user-specified variation, use it directly
 ifdef VARIATION
